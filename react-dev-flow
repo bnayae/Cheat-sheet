@@ -9,3 +9,11 @@ create-react-app {app-name}
 # for TypeScript file use {file-name}.tsx
 npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
+# update 
+npm install
+
+# fix vulnerability
+npm audit fix
+
+# production 
+npm run build
