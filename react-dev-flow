@@ -17,3 +17,7 @@ npm audit fix
 
 # production 
 npm run build
+
+# lint
+# https://facebook.github.io/create-react-app/docs/setting-up-your-editor
+
