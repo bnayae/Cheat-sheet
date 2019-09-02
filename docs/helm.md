@@ -8,3 +8,6 @@
 
 choco install kubernetes-helm  
 [see more](https://helm.sh/docs/using_helm/#installing-helm)
+
+helm init
+helm delete
