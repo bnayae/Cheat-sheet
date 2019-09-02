@@ -11,3 +11,6 @@ choco install kubernetes-helm
 
 helm init
 helm delete
+
+#### NGINX Ingress
+helm install stable/nginx-ingress --name local-nginx
