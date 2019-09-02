@@ -6,13 +6,16 @@ az login
 
 az login --use-device-code  
 
-az login --subscription {subscription-id} 
+az login --subscription {@subscription-id} 
 
 az account list --output table  
 
-az acr repository list --name {@repository-name} --output table  
+*set default subscription*  
+az account set --subscription {@subscription-id}  
 
 ### Docker registray
+
+az acr repository list --name {@repository-name} --output table  
 
 docker login wregisry.azurecr.io -u {@user} -p {@pass}  
 
