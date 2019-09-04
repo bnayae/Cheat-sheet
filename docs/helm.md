@@ -13,7 +13,6 @@ helm init
 helm init --force-upgrade  
 helm reset --force  
 helm version  
-helm delete   
 
 #### NGINX Ingress
 helm install stable/nginx-ingress --name local-nginx
