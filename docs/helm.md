@@ -9,8 +9,11 @@
 choco install kubernetes-helm  
 [see more](https://helm.sh/docs/using_helm/#installing-helm)
 
-helm init
-helm delete
+helm init  
+helm reset --force  
+helm version  
+helm delete  
+helm reset --force  
 
 #### NGINX Ingress
 helm install stable/nginx-ingress --name local-nginx
