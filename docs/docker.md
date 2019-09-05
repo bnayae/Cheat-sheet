@@ -10,6 +10,6 @@ Remove all unused images, not just dangling ones
 
 ## Context
 Get Context: 
-- kubectl config get-contexts  
+*kubectl config get-contexts*  
 Use context: 
-- kubectl config use-context docker-desktop
+*kubectl config use-context docker-desktop*
