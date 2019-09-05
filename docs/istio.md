@@ -23,6 +23,13 @@ Add istio.io chart repository and point to the daily release:
 ### install istio 
 *helm install install/kubernetes/helm/istio --name istio --namespace istio-system*    
 
+#### Verify
+kubectl get svc -n istio-system  
+kubectl get pods -n istio-system
+
+### Uninstall 
+helm delete --purge istio  
+helm delete --purge istio-init  
 ### Grafana
 Grafana (https://istio.io/docs/tasks/telemetry/using-istio-dashboard/):  
 kubectl -n istio-system get svc prometheus  
