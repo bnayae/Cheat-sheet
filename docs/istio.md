@@ -36,6 +36,10 @@ Set istio as default injected for namespace:
 kubectl label namespace {@namespace} istio-injection=enabled  
 kubectl get namespace -L istio-injection  
 
+### Set Telemetry
+
+[Istio Telemetry](https://istio.io/docs/tasks/telemetry/)  
+
 ### Uninstall 
 helm delete --purge istio  
 helm delete --purge istio-init  
