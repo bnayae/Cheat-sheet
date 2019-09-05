@@ -16,3 +16,10 @@ helm version
 
 #### NGINX Ingress
 helm install stable/nginx-ingress --name local-nginx
+
+
+## Context
+Get Context: 
+*kubectl config get-contexts*  
+Use context: 
+*kubectl config use-context docker-desktop*
