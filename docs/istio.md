@@ -20,12 +20,8 @@ If a service account has not already been installed for Tiller, install one:
 Add istio.io chart repository and point to the daily release:  
 *helm repo add istio.io https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts*  
 
-Build the Helm dependencies: (don't work right from the download)  
-*helm dep update install/kubernetes/helm/istio*  
-
 ### install istio 
-helm install install/kubernetes/helm/istio-init --name istio-init --namespace istio-system  
-helm install install/kubernetes/helm/istio --name istio --namespace istio-system  
+*helm install install/kubernetes/helm/istio --name istio --namespace istio-system*    
 
 ### Grafana
 Grafana (https://istio.io/docs/tasks/telemetry/using-istio-dashboard/):  
