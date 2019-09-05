@@ -21,7 +21,10 @@ Add istio.io chart repository and point to the daily release:
 *helm repo add istio.io https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts*  
 
 ### install istio 
-*helm install install/kubernetes/helm/istio --name istio --namespace istio-system*    
+helm install install/kubernetes/helm/istio-init --name istio-init --namespace istio-system  
+helm install install/kubernetes/helm/istio --name istio --namespace istio-system   
+
+- if it fail try to run it again
 
 #### Verify
 kubectl get svc -n istio-system  
