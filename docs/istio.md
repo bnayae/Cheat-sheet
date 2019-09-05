@@ -30,6 +30,10 @@ kubectl get pods -n istio-system
 ### Uninstall 
 helm delete --purge istio  
 helm delete --purge istio-init  
+
+## Visualizing Your Mesh
+[setup](https://istio.io/docs/tasks/telemetry/kiali/)  
+
 ### Grafana
 Grafana (https://istio.io/docs/tasks/telemetry/using-istio-dashboard/):  
 kubectl -n istio-system get svc prometheus  
