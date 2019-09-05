@@ -48,3 +48,7 @@ helm upgrade --recreate-pods --namespace istio-system --set servicegraph.enabled
 kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=servicegraph -o jsonpath='{.items[0].metadata.name}') 8088:8088  
 
 http://localhost:8088/force/forcegraph.html  
+
+
+### K8s
+[Cheat sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
