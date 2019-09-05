@@ -40,6 +40,12 @@ kubectl get namespace -L istio-injection
 
 [Istio Telemetry](https://istio.io/docs/tasks/telemetry/)  
 
+### Istio setting options
+[All Options](https://istio.io/docs/reference/config/installation-options/)  
+
+helm template --set {@option}.enabled=true install/kubernetes/helm/istio --name istio --namespace istio-system > ./{@option}.yaml
+kubectl apply -f ./{@option}.yaml  
+
 ### Uninstall 
 helm delete --purge istio  
 helm delete --purge istio-init  
