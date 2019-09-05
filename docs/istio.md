@@ -30,6 +30,12 @@ helm install install/kubernetes/helm/istio --name istio --namespace istio-system
 kubectl get svc -n istio-system  
 kubectl get pods -n istio-system
 
+### Istio by default
+Set istio as default injected for namespace:
+
+kubectl label namespace {@namespace} istio-injection=enabled  
+kubectl get namespace -L istio-injection  
+
 ### Uninstall 
 helm delete --purge istio  
 helm delete --purge istio-init  
