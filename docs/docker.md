@@ -9,7 +9,14 @@ Remove all unused images, not just dangling ones
 [doc](https://docs.docker.com/engine/reference/commandline/image_prune/)
 
 ## Context
-Get Context: 
+Get Context:  
 *kubectl config get-contexts*  
-Use context: 
+Use context:   
 *kubectl config use-context docker-desktop*
+
+Delete Context:  
+delete-context {@context-name}
+
+
+Azure CLI:  
+az aks get-credentials --resource-group {@group-name} --name {@cluster-name}
