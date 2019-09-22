@@ -18,9 +18,19 @@ helm version
 #### NGINX Ingress
 helm install stable/nginx-ingress --name local-nginx
 
+## K8s Cheat Sheet  
+
+[Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)  
 
 ## Context
 Get Context: 
-*kubectl config get-contexts*  
+**kubectl config get-contexts**  
 Use context: 
-*kubectl config use-context docker-desktop*
+**kubectl config use-context docker-desktop**  
+
+## Context under namespace
+**kubectl get namespace**  
+Use context with default naemspace:  
+**kubectl config set-context --current --namespace=<insert-namespace-name-here>**  
+Validate:  
+**kubectl config view | grep namespace:**
