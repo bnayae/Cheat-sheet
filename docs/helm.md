@@ -31,6 +31,6 @@ Use context:
 ## Context under namespace
 **kubectl get namespace**  
 Use context with default naemspace:  
-**kubectl config set-context --current --namespace=<insert-namespace-name-here>**  
+**kubectl config set-context --current --namespace={@namespace}**  
 Validate:  
 **kubectl config view | grep namespace:**
