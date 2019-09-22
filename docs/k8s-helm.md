@@ -34,3 +34,7 @@ Use context with default naemspace:
 **kubectl config set-context --current --namespace={@namespace}**  
 Validate:  
 **kubectl config view | grep namespace:**
+
+## Aliases
+
+[k Aliases](https://github.com/ahmetb/kubectl-aliases/blob/0533366d8e3e3b3987cc1b7b07a7e8fcfb69f93c/.kubectl_aliases)  
