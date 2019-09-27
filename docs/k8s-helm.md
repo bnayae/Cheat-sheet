@@ -35,6 +35,13 @@ Use context with default naemspace:
 Validate:  
 **kubectl config view | grep namespace:**
 
+### Ingress
+[Troubleshooting Ingress](https://github.com/kubernetes/ingress-nginx/blob/master/docs/troubleshooting.md)  
+
+kubectl get ing -n {@namespace-of-ingress-resource}  
+kubectl describe ing {@ingress-resource-name} -n {@namespace-of-ingress-resource}  
+kubectl get pods -n {@namespace-of-ingress-controller}
+
 ## Aliases
 
 [k Aliases](https://github.com/ahmetb/kubectl-aliases/blob/0533366d8e3e3b3987cc1b7b07a7e8fcfb69f93c/.kubectl_aliases)  
