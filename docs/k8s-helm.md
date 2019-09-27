@@ -42,6 +42,11 @@ kubectl get ing -n {@namespace-of-ingress-resource}
 kubectl describe ing {@ingress-resource-name} -n {@namespace-of-ingress-resource}  
 kubectl get pods -n {@namespace-of-ingress-controller}
 
+#### NGNIX Ingress Controller
+
+[NGNIX Ingress Controller](https://hub.kubeapps.com/charts/stable/nginx-ingress)  
+helm install stable/nginx-ingress  
+
 ## Aliases
 
 [k Aliases](https://github.com/ahmetb/kubectl-aliases/blob/0533366d8e3e3b3987cc1b7b07a7e8fcfb69f93c/.kubectl_aliases)  
