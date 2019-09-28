@@ -15,10 +15,6 @@ helm init --force-upgrade
 helm reset --force  
 helm version  
 
-#### NGINX Ingress
-helm install stable/nginx-ingress --name local-nginx  
-helm upgrade --install --name @{name} stable/nginx-ingress
-
 ## K8s Cheat Sheet  
 
 [Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)  
@@ -46,7 +42,8 @@ kubectl get pods -n {@namespace-of-ingress-controller}
 #### NGNIX Ingress Controller
 
 [NGNIX Ingress Controller](https://hub.kubeapps.com/charts/stable/nginx-ingress)  
-helm install stable/nginx-ingress  
+helm install stable/nginx-ingress --name @{name}  
+helm upgrade --install --name @{name} stable/nginx-ingress
 
 ## Aliases
 
