@@ -1,6 +1,7 @@
 ## Docs
 [docs](https://helm.sh/docs/)  
 [more linkes](https://helm.sh/docs/related/)  
+[Helm Best Practice](https://helm.sh/docs/chart_best_practices/)  
 
 ### install
 
