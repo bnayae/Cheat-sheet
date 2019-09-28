@@ -16,7 +16,8 @@ helm reset --force
 helm version  
 
 #### NGINX Ingress
-helm install stable/nginx-ingress --name local-nginx
+helm install stable/nginx-ingress --name local-nginx  
+helm upgrade --install --name @{name} stable/nginx-ingress
 
 ## K8s Cheat Sheet  
 
