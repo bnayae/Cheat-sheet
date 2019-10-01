@@ -1,6 +1,9 @@
 ## Docs
 [docs](https://helm.sh/docs/)  
 [more linkes](https://helm.sh/docs/related/)  
+
+### Best Practices
+[K8s Best Practices](https://www.youtube.com/playlist?list=PLIivdWyY5sqL3xfXz5xJvwzFW_tlQB_GB)  
 [Helm Best Practice](https://helm.sh/docs/chart_best_practices/)  
 
 ### install
