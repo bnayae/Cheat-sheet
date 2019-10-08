@@ -49,6 +49,10 @@ kubectl get pods -n {@namespace-of-ingress-controller}
 helm install stable/nginx-ingress --name @{name}  
 helm upgrade --install --name @{name} stable/nginx-ingress
 
+## Set WSL 
+
+[WSL & Docker Desktop](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)  
+
 ## Aliases
 
 [k Aliases](https://github.com/ahmetb/kubectl-aliases/blob/0533366d8e3e3b3987cc1b7b07a7e8fcfb69f93c/.kubectl_aliases)  
