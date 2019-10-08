@@ -52,6 +52,12 @@ helm upgrade --install --name @{name} stable/nginx-ingress
 ## Set WSL 
 
 [WSL & Docker Desktop](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)  
+don't install docker-ce, instead run:  
+sudo apt install docker.io  
+
+## LINKERD
+
+[Get Started](https://linkerd.io/2/getting-started/)  
 
 ## Aliases
 
