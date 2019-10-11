@@ -19,6 +19,8 @@ helm init --force-upgrade
 helm reset --force  
 helm version  
 
+[KubeApps](https://github.com/kubeapps/kubeapps/blob/master/chart/kubeapps/README.md)
+
 ## K8s Cheat Sheet  
 
 [Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)  
@@ -58,6 +60,8 @@ sudo apt install docker.io
 ## LINKERD
 
 [Get Started](https://linkerd.io/2/getting-started/)  
+
+
 
 ## Aliases
 
