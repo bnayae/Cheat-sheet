@@ -3,6 +3,9 @@
 ## Components
 
 [Awesome react components](https://github.com/brillout/awesome-react-components)  
+[Awesome React](https://getawesomeness.herokuapp.com/get/react)  
+
+[getAwesome](https://getawesomeness.herokuapp.com/get/react)  
 
 ### Loaders
 
