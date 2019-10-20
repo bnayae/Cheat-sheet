@@ -48,8 +48,8 @@ kubectl get pods -n {@namespace-of-ingress-controller}
 #### NGNIX Ingress Controller
 
 [NGNIX Ingress Controller](https://hub.kubeapps.com/charts/stable/nginx-ingress)  
-helm install stable/nginx-ingress --name @{name}  
-helm upgrade --install --name @{name} stable/nginx-ingress
+helm install stable/nginx-ingress --name @{name} --namespace ingress  
+helm upgrade --install --name @{name} stable/nginx-ingress --namespace ingress
 
 ## Set WSL 
 
